@@ -1,0 +1,17 @@
+Escolhas de Projeto
+
+-A linguagem python foi escolhida devido a sua capacidade de trabalhar com dados de forma simples.
+
+-Os arquivos de entrada e os arquivos resultantes são em formato csv pois permite uma boa maneira de armazenar os dados.
+
+Arquitetura do Projeto
+
+O programa funciona de uma maneira bastante simples
+
+Primeiramente são carregados a coleção de livros e o conjunto de regras de ordenação 
+
+Em seguida o programa ordena os livros de acordo com as regras estabelecidas. 
+Isso é feito através de uma sequencia de ordenações simples, começando com a ordenação de atributos menos prioritários até o atributo de prioridade máxima. 
+Essa estratégia funciona, pois os livros já organizados parmanecem na mesma ordem em relação aos outros de mesma categoria.
+
+Enfim o programa retorna a lista de livros organizados para um arquivo csv.
