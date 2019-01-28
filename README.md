@@ -12,7 +12,7 @@ For this program to work there should be 2 csv files in the same folder:
 
 It is important to remember that the priority of the lines are ascendent, so the atribute in the last line will have the greatest priority.
 
-#Exemple
+# Example
 
 collection.csv
 |1 Java How To Program,Deitel & Deitel,2007                           |
