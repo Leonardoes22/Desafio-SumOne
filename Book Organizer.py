@@ -32,3 +32,7 @@ collection = load_data('collection.csv')
 book_collection = []
 for b in collection:
     book_collection.append(Book(b[0],b[1],b[2]))
+
+organized_objects = organize(config_rule, book_collection)
+
+input("Livros Organizados\nPressione qualquer tecla para continuar...")
